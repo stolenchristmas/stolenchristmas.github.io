@@ -1,0 +1,210 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.hero {
+  background: #6972c7;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg-element1 {
+  background: #4f57a3;
+  width: 1200px;
+  height: 600px;
+  position: absolute;
+  transform: rotate(23deg) scale(1) skew(1deg) translate(0px);
+  -webkit-transform: rotate(23deg) scale(1) skew(1deg) translate(0px);
+  -moz-transform: rotate(23deg) scale(1) skew(1deg) translate(0px);
+  -o-transform: rotate(23deg) scale(1) skew(1deg) translate(0px);
+  -ms-transform: rotate(23deg) scale(1) skew(1deg) translate(0px);
+  bottom: -450px;
+  left: -200px;
+}
+
+.bg-element2 {
+  background: #4f57a3;
+  width: 1200px;
+  height: 1200px;
+  position: absolute;
+  transform: rotate(23deg) scale(1) skew(1deg) translate(0px);
+  -webkit-transform: rotate(23deg) scale(1) skew(1deg) translate(0px);
+  -moz-transform: rotate(23deg) scale(1) skew(1deg) translate(0px);
+  -o-transform: rotate(23deg) scale(1) skew(1deg) translate(0px);
+  -ms-transform: rotate(23deg) scale(1) skew(1deg) translate(0px);
+  bottom: -800px;
+  right: -300px;
+}
+.bg-element3 {
+  width: 1000px;
+  height: 580px;
+  position: absolute;
+  transform: rotate(112deg) scale(0.723) skew(-1deg) translate(0px);
+  -webkit-transform: rotate(112deg) scale(0.723) skew(-1deg) translate(0px);
+  -moz-transform: rotate(112deg) scale(0.723) skew(-1deg) translate(0px);
+  -o-transform: rotate(112deg) scale(0.723) skew(-1deg) translate(0px);
+  -ms-transform: rotate(112deg) scale(0.723) skew(-1deg) translate(0px);
+  top: -400px;
+  right: 50px;
+  border: 3px dotted #ffffff;
+}
+.bg-element4 {
+  width: 580px;
+  height: 1000px;
+  position: absolute;
+  transform: rotate(112deg) scale(0.723) skew(-1deg) translate(0px);
+  -webkit-transform: rotate(112deg) scale(0.723) skew(-1deg) translate(0px);
+  -moz-transform: rotate(112deg) scale(0.723) skew(-1deg) translate(0px);
+  -o-transform: rotate(112deg) scale(0.723) skew(-1deg) translate(0px);
+  -ms-transform: rotate(112deg) scale(0.723) skew(-1deg) translate(0px);
+  top: 165px;
+  right: -100px;
+  border: 3px dotted #ffffff;
+}
+.bg-element5 {
+  width: 4px;
+  height: 90px;
+  position: absolute;
+  background: #fff;
+  top: 0;
+  left: 23%;
+}
+.bg-element6 {
+  width: 4px;
+  height: 133px;
+  position: absolute;
+  background: #fff;
+  bottom: 0;
+  right: 15%;
+}
+.bg-element7 {
+  width: 30px;
+  height: 4px;
+  position: absolute;
+  background: #fff;
+  top: 14%;
+  right: 50%;
+}
+.bg-element8 {
+  width: 40px;
+  height: 4px;
+  position: absolute;
+  background: #fff;
+  bottom: 20%;
+  right: 50%;
+}
+.bg-element9 {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 3%;
+  bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bg9-one {
+  background: #fff;
+  width: 11px;
+  height: 11px;
+  margin-right: 8px;
+  margin-top: 6px;
+}
+.bg9-two {
+  background: #fff;
+  width: 11px;
+  height: 11px;
+  margin-top: 6px;
+}
+.bg9-three {
+  background: #fff;
+  width: 11px;
+  height: 11px;
+  margin-top: -38px;
+}
+
+.bg-element10 {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  right: 3%;
+  top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bg10-one {
+  background: #fff;
+  width: 11px;
+  height: 11px;
+  margin-right: 8px;
+  margin-top: 6px;
+}
+.bg10-two {
+  background: #fff;
+  width: 11px;
+  height: 11px;
+  margin-top: 6px;
+}
+.bg10-three {
+  background: #fff;
+  width: 11px;
+  height: 11px;
+  margin-top: 8px;
+  margin-left: 19px;
+}
+
+.man {
+  width: 703px;
+  height: 593px;
+  background-image: url(../layout/img/ava.png);
+  position: absolute;
+  right: 10%;
+  top: 5%;
+}
+
+.offer {
+  position: absolute;
+  top: 50%;
+  margin-top: -150px;
+  left: 31%;
+  margin-left: -223px;
+}
+.offer_intro {
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+.offer_title {
+  font-weight: 900;
+  font-size: 45px;
+  margin-bottom: 137px;
+}
+.offer_addition {
+  font-weight: 500;
+  font-size: 21px;
+  display: block;
+}
+.offer_btn {
+  font-size: 17px;
+  color: #4f57a3;
+  background: #fff;
+  width: 247px;
+  height: 61px;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  font-weight: 900;
+  border: 0;
+  transition: all 0.5s ease;
+}
+.offer_btn:hover {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+}
+.btn-none-line {
+  text-decoration: none;
+  color: #4f57a3;
+}
